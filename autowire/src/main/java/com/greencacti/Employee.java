@@ -1,4 +1,4 @@
-package com.greencacti.spring.ioc.autowire;
+package com.greencacti;
 
 import javax.annotation.PostConstruct;
 

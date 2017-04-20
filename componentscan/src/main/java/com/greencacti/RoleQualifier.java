@@ -1,4 +1,4 @@
-package com.greencacti.spring.ioc.autowire;
+package com.greencacti;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 
@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 /**
  * Created by baominw on 4/19/17.
  */
-@Target({ElementType.FIELD, ElementType.PARAMETER})
+@Target({ElementType.FIELD, ElementType.PARAMETER, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Qualifier
 public @interface RoleQualifier {
