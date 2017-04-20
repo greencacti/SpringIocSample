@@ -1,12 +1,12 @@
 package com.greencacti;
 
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by baominw on 4/20/17.
  */
-@Configurable
-@ComponentScan("com.greencacti")
+@Configuration
+@ComponentScan(basePackages = "com.greencacti")
 public class AppConfig {
 }

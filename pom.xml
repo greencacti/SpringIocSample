@@ -12,6 +12,7 @@
         <module>autowire</module>
         <module>componentscan</module>
         <module>appconfig</module>
+        <module>javaconfiguration</module>
     </modules>
 
     <dependencyManagement>
