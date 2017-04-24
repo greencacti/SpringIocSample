@@ -13,6 +13,7 @@
         <module>componentscan</module>
         <module>appconfig</module>
         <module>javaconfiguration</module>
+        <module>profile</module>
     </modules>
 
     <dependencyManagement>
